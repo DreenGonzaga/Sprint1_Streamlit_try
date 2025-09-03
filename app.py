@@ -5,3 +5,6 @@ import os
 
 # Set page title
 st.set_page_config(page_title="My Streamlit App", layout="wide")
+# Sidebar Navigation
+st.sidebar.title("Navigation")
+menu = st.sidebar.radio("Go to", ["Overall", "Introduction", "Methodology", "Results", "Recommendations"])
